@@ -6,6 +6,7 @@
 `import numpy as np`
 `import seaborn as sns`
 `import math`
+`import collections`
 
 ## Make a data frames with pandas
 
@@ -25,6 +26,7 @@ df = pd.DataFrame(data)
 | Min Value | - | ```df.min()/df['ColumnName'].min()```|
 | Mean | - | ```df.mean()/df['ColumnName'].mean()```|
 | Count Values | - | ```df.count()/df['ColumnName'].count()```|
+| Counter Range | - | ```print(collections.Counter(df['column']))```|
 | Resume from data | - | ```df.decribe```|
 | Total Range | At = maxValue - minValue | ```totalRange = max - min```|
 | Interval Class Range | k = √N(countOfData) | ```h = math.sqrt(len(df))```|
