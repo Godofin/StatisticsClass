@@ -36,5 +36,5 @@ df = pd.DataFrame(data)
 
 ### Histogram
 ```sh
-sns.histoplot(data=df, x='someData', stat='percert')
+sns.histoplot(data=df, x='someData', stat='percert', hue='subtitles').set_title('NameTitle')
 ```
